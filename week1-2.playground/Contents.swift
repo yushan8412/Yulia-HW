@@ -27,7 +27,7 @@ print(10.0/3.0)
 var flag : Bool = true
 var inputString : String = "Hello world."
 let bitsInBite : Int = 8
-let averageScore : Float = 86.8
+let averageScore : Double = 86.8
 //5. Compound assignment operators are very useful when programming. Please create a salary as 22000, and use unary plus operator adding 28000 to salary, and it will be 50000 after this process.
 var salsry = 22000
 salsry += 28000
@@ -42,13 +42,15 @@ print(salsry)
 let c = 10
 let d = 3
 let remaimder = c+d
+print(remaimder)
 //8. Please explain the difference between let and var .
 // var 是被宣告質量後還可以改變的；let是宣告後就不能在被重新賦予其他意義的。
 //9. Please write down naming conventions and rules you learned in this session.
-//
+//幾乎可以使用任何字元來命名，但不能出現＋-*/等，也不能使用數字作為開頭；同時也須注意大小寫，大小寫不同會視為不同的變數。
+
 
 //10. What is Type Inference in swift?
-// 型別推論：在swift可以分為number. string. dictionary.
+// 型別推論：不需重複標注變數型別資訊，swift會自動推論。
 //11. What is the problem about this piece of code?
  
 //var phoneNumber = 0987654321

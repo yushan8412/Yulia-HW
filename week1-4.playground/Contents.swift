@@ -52,11 +52,22 @@ if ( isRaining ){
 
 //7.n a company, we usually use numbers to represent job levels. Let’s make an example. There are four job levels: Member, Team Leader, Manager, and Director. We use 1 for the Member, 2 for Team Leader, 3 for Manager, and 4 for Director. Now, create a variable name jobLevel and assign a number to it. If the jobLevel number is in our list, print the relative job title name; if not, just print “We don't have this job”. Please use a switch statement to complete this requirement.
 
-var jobLevels = [1 :"Member", 2 :"Team Leader", 3 : "Manager", 4 : "Director"]
-
-var jobLevel = 1
-
-print(jobLevels[jobLevel] ?? "we don't have this job")
+var jobLevels = 3
+switch jobLevels{
+case 1:
+    print("member")
+case 2 :
+    print("team leader")
+case 3:
+    print("manager")
+case 4:
+    print("director")
+default :
+    print("we don't have this job")
+    }
         
 
             
+
+
+

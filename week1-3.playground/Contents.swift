@@ -16,8 +16,9 @@ myFriend.insert("Micheal", at: 3)
 
 //4.Because I usually hang out with Kevin, please move Kevin to the beginning of the .myFriends array.
 
-let Kevin = remove
+var Kevin = remove
 myFriend.insert("Kevin", at: 0)
+
 
 //5.Use for...in to print all the friends in myFriends array.
 for friend in myFriend{
